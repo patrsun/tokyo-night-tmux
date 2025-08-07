@@ -96,6 +96,17 @@ set -g @tokyo-night-tmux_pane_id_style hsquare
 set -g @tokyo-night-tmux_zoom_id_style dsquare
 ```
 
+### Window styles
+
+```bash
+# Icon styles
+set -g @tokyo-night-tmux_terminal_icon 
+set -g @tokyo-night-tmux_active_terminal_icon 
+
+# No extra spaces between icons
+set -g @tokyo-night-tmux_window_tidy_icons 0
+```
+
 ### Widgets
 
 For widgets add following lines in you `.tmux.conf`
@@ -153,8 +164,15 @@ set -g @tokyo-night-tmux_battery_low_threshold 21 # default
 Set variable value `0` to disable the widget. Remember to restart `tmux` after
 changing values.
 
+#### Hostname Widget
+
+```bash
+set -g @tokyo-night-tmux_show_hostname 1
+```
+
 ## Styles
 
+- `hide`: hide number
 - `none`: no style, default font
 - `digital`: 7 segment number (🯰...🯹) (needs [Unicode support](https://github.com/janoamaral/tokyo-night-tmux/issues/36#issuecomment-1907072080))
 - `roman`: roman numbers (󱂈...󱂐) (needs nerdfont)
