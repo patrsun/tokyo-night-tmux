@@ -25,30 +25,32 @@ case $SELECTED_THEME in
     ["bred"]="#f7768e"
     ["bwhite"]="#787c99"
     ["byellow"]="#e0af68"
+    ["base"]="#414868"
   )
   ;;
 
 "day")
   declare -A THEME=(
-    ["background"]="#d5d6db"
-    ["foreground"]="#343b58"
-    ["black"]="#0f0f14"
-    ["blue"]="#34548a"
-    ["cyan"]="#0f4b6e"
-    ["green"]="#33635c"
-    ["magenta"]="#5a4a78"
-    ["red"]="#8c4351"
-    ["white"]="#343b58"
-    ["yellow"]="#8f5e15"
+    ["background"]="#eff1f5"
+    ["foreground"]="#4c4f69"
+    ["black"]="#5c5f77"
+    ["red"]="#d20f39"
+    ["green"]="#40a02b"
+    ["yellow"]="#df8e1d"
+    ["blue"]="#1e66f5"
+    ["magenta"]="#8839ef"
+    ["cyan"]="#04a5e5"
+    ["white"]="#4c4f69"
 
-    ["bblack"]="#9699a3"
-    ["bblue"]="#34548a"
-    ["bcyan"]="#0f4b6e"
-    ["bgreen"]="#33635c"
-    ["bmagenta"]="#5a4a78"
-    ["bred"]="#8c4351"
-    ["bwhite"]="#343b58"
-    ["byellow"]="#8f5815"
+    ["bblack"]="#ccd0da"
+    ["bred"]="#e64553"
+    ["bgreen"]="#40a02b"
+    ["byellow"]="#fe640b"
+    ["bblue"]="#7287fd"
+    ["bmagenta"]="#ea76cb"
+    ["bcyan"]="#209fb5"
+    ["bwhite"]="#acb0be"
+    ["base"]="#eff1f5"
   )
   ;;
 
@@ -74,6 +76,7 @@ case $SELECTED_THEME in
     ["bred"]="#ff9e64"
     ["bwhite"]="#787c99"
     ["byellow"]="#e0af68"
+    ["base"]="#2A2F41"
   )
   ;;
 esac
