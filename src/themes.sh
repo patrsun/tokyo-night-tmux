@@ -25,7 +25,7 @@ case $SELECTED_THEME in
     ["bred"]="#f7768e"
     ["bwhite"]="#787c99"
     ["byellow"]="#e0af68"
-    ["base"]="#414868"
+    ["bblack"]="#414868"
   )
   ;;
 
@@ -51,6 +51,31 @@ case $SELECTED_THEME in
     ["bcyan"]="#209fb5"
     ["bwhite"]="#acb0be"
     ["base"]="#eff1f5"
+  )
+  ;;
+
+"rose-pine-dawn")
+  declare -A THEME=(
+    ["background"]="#faf4ed"
+    ["foreground"]="#575279"
+    ["black"]="#9893a5"
+    ["red"]="#b4637a"
+    ["green"]="#286983"
+    ["yellow"]="#ea9d34"
+    ["blue"]="#56949f"
+    ["magenta"]="#907aa9"
+    ["cyan"]="#d7827e"
+    ["white"]="#575279"
+
+    ["bblack"]="#f2e9e1"
+    ["bred"]="#b4637a"
+    ["bgreen"]="#286983"
+    ["byellow"]="#ea9d34"
+    ["bblue"]="#56949f"
+    ["bmagenta"]="#907aa9"
+    ["bcyan"]="#d7827e"
+    ["bwhite"]="#575279"
+    ["base"]="#faf4ed"
   )
   ;;
 
